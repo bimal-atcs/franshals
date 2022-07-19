@@ -1,2 +1,4 @@
-@import "normalize.css";
-@import "spliting.css";
+@import "css/fonts.css";
+@import "css/normalize.css";
+@import "css/hero.css";
+@import "css/spliting.css";
