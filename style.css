@@ -1,4 +1,9 @@
-@import "css/fonts.css";
-@import "css/normalize.css";
-@import "css/hero.css";
-@import "css/spliting.css";
+@import "assets/css/fonts.css";
+@import "assets/css/normalize.css";
+
+@import "assets/css/slick/slick.css";
+@import "assets/css/slick/slick-theme.css";
+@import "assets/css/slide.css";
+
+@import "assets/css/hero.css";
+@import "assets/css/spliting.css";

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="hero" style="text-align: center;">
+    <section class="hero" style="text-align: center;">
         <div class="hero-inner">
             <h1>
                 ÉÉN MUSEUM
@@ -18,11 +18,74 @@
                 TWEE LOCATIES
             </h1>
         </div>
-    </div>
+    </section>
 
-    <div class="spliting">
+    <section id="slider" class="slide">
+        <div class="slide-heading" style="text-align: center;">
+            <h3>Agenda</h3>
+        </div>
+
+        <div class="slide-panel slider">
+            <div class="slide-image">
+                <a class="slide-figure" href="javascript:;">
+                    <img src="assets/img/s1.jpg" alt="">
+                </a>
+                <div class="slide-caption">
+                    <a class="slide-caption__heading" href="javascript:;">Haarlemse Helden. Andere Meesters</a>
+                    <a class="slide-caption__excerpt" href="javascript:;">Ontmoet de topstukken uit de collectie</a>
+                </div>
+            </div>
+            <div class="slide-image">
+                <a class="slide-figure" href="javascript:;">
+                    <img src="assets/img/s2.jpg" alt="">
+                </a>
+                <div class="slide-caption">
+                    <a class="slide-caption__heading" href="javascript:;">Haarlemse Helden. Andere Meesters</a>
+                    <a class="slide-caption__excerpt" href="javascript:;">Ontmoet de topstukken uit de collectie</a>
+                </div>
+            </div>
+            <div class="slide-image">
+                <a class="slide-figure" href="javascript:;">
+                    <img src="assets/img/s3.png" alt="">
+                </a>
+                <div class="slide-caption">
+                    <a class="slide-caption__heading" href="javascript:;">Haarlemse Helden. Andere Meesters</a>
+                    <a class="slide-caption__excerpt" href="javascript:;">Ontmoet de topstukken uit de collectie</a>
+                </div>
+            </div>
+            <div class="slide-image">
+                <a class="slide-figure" href="javascript:;">
+                    <img src="assets/img/s4.png" alt="">
+                </a>
+                <div class="slide-caption">
+                    <a class="slide-caption__heading" href="javascript:;">Haarlemse Helden. Andere Meesters</a>
+                    <a class="slide-caption__excerpt" href="javascript:;">Ontmoet de topstukken uit de collectie</a>
+                </div>
+            </div>
+            <div class="slide-image">
+                <a class="slide-figure" href="javascript:;">
+                    <img src="assets/img/s5.jpg" alt="">
+                </a>
+                <div class="slide-caption">
+                    <a class="slide-caption__heading" href="javascript:;">Haarlemse Helden. Andere Meesters</a>
+                    <a class="slide-caption__excerpt" href="javascript:;">Ontmoet de topstukken uit de collectie</a>
+                </div>
+            </div>
+            <div class="slide-image">
+                <a class="slide-figure" href="javascript:;">
+                    <img src="assets/img/s6.jpg" alt="">
+                </a>
+                <div class="slide-caption">
+                    <a class="slide-caption__heading" href="javascript:;">Haarlemse Helden. Andere Meesters</a>
+                    <a class="slide-caption__excerpt" href="javascript:;">Ontmoet de topstukken uit de collectie</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="spliting">
         <div class="spliting-media has-overlay">
-            <img src="img/video-top.jpg" alt="">
+            <img src="assets/img/video-top.jpg" alt="">
 
             <div class="spliting-media-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
@@ -42,8 +105,13 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <script type="text/javascript"></script>
+    <!-- common files -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/slick.js"></script>
+
+    <!-- separate files -->
+    <script src="assets/js/slider.js"></script>
 </body>
 </html>
